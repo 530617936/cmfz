@@ -16,9 +16,10 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cmfz
+
 mybatis:
   type-aliases-package: com.baizhi.entity
-  mapper-locations: classpath:/com/baizhi/mapper/*.xml
+  mapper-locations: classpath:/com/baizhi/mapper/*Mapper.xml
