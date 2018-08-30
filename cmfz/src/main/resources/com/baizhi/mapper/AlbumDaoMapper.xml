@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "../mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.AlbumDao">
+
+	<select id="selectAll" resultType="com.baizhi.entity.Album">
+		select * from album
+	</select>
+
+	<select id="selectById" resultType="com.baizhi.entity.Album">
+		select * from album where id=${id}
+	</select>
+
+</mapper>

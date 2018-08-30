@@ -55,9 +55,6 @@
 
     }
 
-    function updatepwd() {
-        alert("nihao ");
-    }
 </script>
 
 </head>
